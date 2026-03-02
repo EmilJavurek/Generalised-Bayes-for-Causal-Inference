@@ -1,0 +1,9 @@
+\begin{tabular}{lcccccccccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}_{1}$ & $\mathcal{D}_{2}$ & $\mathcal{D}_{3}$ & $\mathcal{D}_{4}$ & $\mathcal{D}_{5}$ & $\mathcal{D}_{6}$ & $\mathcal{D}_{7}$ & $\mathcal{D}_{8}$ & $\mathcal{D}_{9}$ \\ 
+\hline
+DR & \cmark & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ \\ 
+IPW & \xmark & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ \\ 
+RA & \xmark & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ & $50/50$ \\ 
+\hline
+\end{tabular}

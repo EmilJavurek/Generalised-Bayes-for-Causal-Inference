@@ -1,0 +1,54 @@
+{
+    "data": {
+        "data_kind": "backdoor",
+        "dgp_fn_REGISTRATION": "dgp_1",
+        "n": 1000,
+        "dgp_kwargs": {}
+    },
+    "nuisances": {
+        "nuisance_fn_REGISTRATION": "default",
+        "nuisance_params": {
+            "lam_prop": 1.0,
+            "lam_outcome": 1.0,
+            "clip_eps": 0.01
+        }
+    },
+    "loss": {
+        "phi_fn_REGISTRATION": "ra",
+        "phi_n_splits": null
+    },
+    "omega": {
+        "omega_est_REGISTRATION": "naive",
+        "omega_params": {}
+    },
+    "prior": {
+        "prior_mu": 0.0,
+        "prior_sigma": 1.0
+    },
+    "var_family": {
+        "q_family_cls_REGISTRATION": "gaussian",
+        "q_family_kwargs": {
+            "mu_init": 0.0,
+            "log_sigma_init": 0.0
+        }
+    },
+    "learning": {
+        "learn_cfg": {
+            "batch_size": 200,
+            "n_epochs": 2000,
+            "lr": 0.03,
+            "track_grads": true
+        }
+    },
+    "analytic": {
+        "analytic_flag": true
+    },
+    "misc": {
+        "run_seed": 42,
+        "device": "cpu",
+        "log": true,
+        "plot": true,
+        "progress": true,
+        "diagnostics": true
+    }
+}

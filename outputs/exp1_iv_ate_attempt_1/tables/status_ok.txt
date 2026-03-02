@@ -1,0 +1,8 @@
+\begin{tabular}{lccc}
+\hline
+Method & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\
+\hline
+DR_IV & $50/50$ & $50/50$ & $50/50$ \\
+WALD_IV & $50/50$ & $50/50$ & $50/50$ \\
+\hline
+\end{tabular}

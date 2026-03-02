@@ -1,0 +1,8 @@
+\begin{tabular}{lcccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\ 
+\hline
+DR_IV & \cmark & $\textbf{1.000}$ \scriptsize (0.964-1.000) & $\textbf{1.000}$ \scriptsize (0.964-1.000) & $\textbf{0.820}$ \scriptsize (0.731-0.890) \\ 
+WALD_IV & \xmark & $\textbf{1.000}$ \scriptsize (0.964-1.000) & $\textbf{1.000}$ \scriptsize (0.964-1.000) & $0.600$ \scriptsize (0.497-0.697) \\ 
+\hline
+\end{tabular}

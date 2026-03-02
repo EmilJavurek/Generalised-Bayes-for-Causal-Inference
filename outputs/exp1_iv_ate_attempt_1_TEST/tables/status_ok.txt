@@ -1,0 +1,8 @@
+\begin{tabular}{lcccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\
+\hline
+DR_IV & \cmark & $100/100$ & $100/100$ & $100/100$ \\
+WALD_IV & \xmark & $100/100$ & $100/100$ & $100/100$ \\
+\hline
+\end{tabular}

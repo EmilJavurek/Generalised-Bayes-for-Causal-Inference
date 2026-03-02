@@ -1,0 +1,9 @@
+\begin{tabular}{lcccccccccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}_{1}$ & $\mathcal{D}_{2}$ & $\mathcal{D}_{3}$ & $\mathcal{D}_{4}$ & $\mathcal{D}_{5}$ & $\mathcal{D}_{6}$ & $\mathcal{D}_{7}$ & $\mathcal{D}_{8}$ & $\mathcal{D}_{9}$ \\ 
+\hline
+AIPW & \cmark & $0.860$ \scriptsize (0.733-0.942) & $\textbf{0.940}$ \scriptsize (0.835-0.987) & $\textbf{0.940}$ \scriptsize (0.835-0.987) & $\textbf{0.900}$ \scriptsize (0.782-0.967) & $0.800$ \scriptsize (0.663-0.900) & $0.360$ \scriptsize (0.229-0.508) & $\textbf{0.940}$ \scriptsize (0.835-0.987) & $0.660$ \scriptsize (0.512-0.788) & $\textbf{0.900}$ \scriptsize (0.782-0.967) \\ 
+IPW & \xmark & $\textbf{0.980}$ \scriptsize (0.894-0.999) & $1.000$ \scriptsize (0.929-1.000) & $1.000$ \scriptsize (0.929-1.000) & $1.000$ \scriptsize (0.929-1.000) & $\textbf{0.920}$ \scriptsize (0.808-0.978) & $\textbf{0.720}$ \scriptsize (0.575-0.838) & $0.960$ \scriptsize (0.863-0.995) & $\textbf{0.940}$ \scriptsize (0.835-0.987) & $0.020$ \scriptsize (0.001-0.106) \\ 
+RA & \xmark & $0.420$ \scriptsize (0.282-0.568) & $0.500$ \scriptsize (0.355-0.645) & $0.600$ \scriptsize (0.452-0.736) & $0.600$ \scriptsize (0.452-0.736) & $0.360$ \scriptsize (0.229-0.508) & $0.280$ \scriptsize (0.162-0.425) & $0.260$ \scriptsize (0.146-0.403) & $0.760$ \scriptsize (0.618-0.869) & $0.380$ \scriptsize (0.247-0.528) \\ 
+\hline
+\end{tabular}

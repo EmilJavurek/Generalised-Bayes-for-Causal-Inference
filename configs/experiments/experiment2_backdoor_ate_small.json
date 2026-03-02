@@ -1,0 +1,28 @@
+﻿{
+  "experiment": {
+    "experiment_id": "exp2_backdoor_ate_attempt_1",
+    "save_artifacts": true,
+    "overwrite": false,
+    "plot": false,
+    "log": false,
+    "progress": true,
+    "diagnostics": true,
+    "failure_mode": "fail_fast"
+  },
+  "base_single_run": {
+    "config_path": "configs/single_runs/single_run_config_example.json"
+  },
+  "sweep": {
+    "dgp_list": [
+      "dgp_1"
+    ],
+    "method_list": [
+      "aipw",
+      "ipw",
+      "ra"
+    ],
+    "n_list": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000],
+    "repetitions": 50,
+    "run_seed0": 123
+  }
+}

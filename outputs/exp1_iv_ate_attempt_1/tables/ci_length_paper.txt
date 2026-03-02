@@ -1,0 +1,8 @@
+\begin{tabular}{lccc}
+\hline
+Method & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\
+\hline
+DR_IV & $3.895 (0.023)$ & $3.895 (0.031)$ & $3.920 (0.006)$ \\
+WALD_IV & $\textbf{0.685 (0.196)}$ & $\textbf{0.810 (0.272)}$ & $\textbf{2.538 (0.241)}$ \\
+\hline
+\end{tabular}

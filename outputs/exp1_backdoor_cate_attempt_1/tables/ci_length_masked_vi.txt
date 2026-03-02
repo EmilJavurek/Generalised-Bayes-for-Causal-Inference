@@ -1,0 +1,9 @@
+\begin{tabular}{lcccccccccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}_{1}$ & $\mathcal{D}_{2}$ & $\mathcal{D}_{3}$ & $\mathcal{D}_{4}$ & $\mathcal{D}_{5}$ & $\mathcal{D}_{6}$ & $\mathcal{D}_{7}$ & $\mathcal{D}_{8}$ & $\mathcal{D}_{9}$ \\ 
+\hline
+DR & \cmark & $1.378 (0.000)$ & $1.153 (0.000)$ & $1.524 (0.000)$ & $\textbf{1.554 (0.000)}$ & $\textbf{1.321 (0.000)}$ & $\textcolor{gray}{\cancel{1.435 (0.000)}}$ & $\textcolor{gray}{\cancel{2.308 (0.000)}}$ & $5.556 (0.000)$ & $\textcolor{gray}{\cancel{0.932 (0.000)}}$ \\ 
+IPW & \xmark & $2.122 (0.000)$ & $1.965 (0.000)$ & $2.318 (0.000)$ & $\textcolor{gray}{\cancel{3.718 (0.000)}}$ & $\textcolor{gray}{\cancel{1.971 (0.000)}}$ & $\textbf{3.417 (0.000)}$ & $\textcolor{gray}{\cancel{2.361 (0.000)}}$ & $\textbf{5.484 (0.000)}$ & $\textcolor{gray}{\cancel{3.016 (0.000)}}$ \\ 
+RA & \xmark & $\textbf{1.292 (0.000)}$ & $\textbf{0.939 (0.000)}$ & $\textbf{0.801 (0.000)}$ & $1.606 (0.000)$ & $1.490 (0.000)$ & $\textcolor{gray}{\cancel{1.505 (0.000)}}$ & $\textcolor{gray}{\cancel{0.985 (0.000)}}$ & $\textcolor{gray}{\cancel{3.563 (0.000)}}$ & $\textcolor{gray}{\cancel{0.436 (0.000)}}$ \\ 
+\hline
+\end{tabular}

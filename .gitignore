@@ -1,0 +1,11 @@
+# Local virtual environment
+GBIpython/
+
+# Experiment outputs
+results/
+
+
+# Postprocessing outputs
+# outputs/
+outputs/old/
+

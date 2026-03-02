@@ -1,0 +1,8 @@
+\begin{tabular}{lcccc}
+\hline
+Strategy & Orthogonal & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\
+\hline
+DR_IV & \cmark & $\textbf{0.273 (0.007)}$ & $\textbf{0.253 (0.005)}$ & $\textbf{0.038 (0.007)}$ \\\
+WALD_IV & \xmark & $0.298 (0.007)$ & $0.279 (0.005)$ & $0.276 (0.008)$ \\\
+\hline
+\end{tabular}

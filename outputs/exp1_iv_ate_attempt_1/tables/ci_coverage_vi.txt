@@ -1,0 +1,8 @@
+\begin{tabular}{lccc}
+\hline
+Method & $\mathcal{D}^{IV}_{0}$ & $\mathcal{D}^{IV}_{1}$ & $\mathcal{D}^{IV}_{2}$ \\ 
+\hline
+DR_IV & $0.200$ \scriptsize (0.100-0.337) & $\textbf{1.000}$ \scriptsize (0.929-1.000) & $1.000$ \scriptsize (0.929-1.000) \\ 
+WALD_IV & $\textbf{0.620}$ \scriptsize (0.472-0.753) & $0.680$ \scriptsize (0.533-0.805) & $\textbf{0.900}$ \scriptsize (0.782-0.967) \\ 
+\hline
+\end{tabular}
