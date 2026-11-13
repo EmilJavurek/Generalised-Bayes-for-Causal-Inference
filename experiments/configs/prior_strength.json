@@ -1,0 +1,31 @@
+{
+  "learner": "ridge",
+  "method": "aipw",
+  "clip_eps": 0.01,
+  "lam_prop": 1.0,
+  "lam_outcome": 1.0,
+  "dgp": 1,
+  "n": 1000,
+  "replications": 500,
+  "seed": 20260725,
+  "folds": 5,
+  "prior_sds": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    100.0
+  ],
+  "prior_offsets": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0,
+    2.0
+  ]
+}

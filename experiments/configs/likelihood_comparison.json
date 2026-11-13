@@ -1,0 +1,16 @@
+{
+  "n": 1000,
+  "replications": 500,
+  "seed": 20260725,
+  "folds": 5,
+  "scenarios": {
+    "well_specified": 0.0,
+    "misspecified": 1.0
+  },
+  "clip_eps": 0.01,
+  "prior_mean": 0.0,
+  "prior_sd": 100.0,
+  "method": "aipw",
+  "lam_prop": 1.0,
+  "lam_outcome": 1.0
+}

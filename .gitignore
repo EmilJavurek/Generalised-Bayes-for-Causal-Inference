@@ -1,0 +1,10 @@
+# Local benchmark inputs and generated experiment outputs.
+datasets/
+results/
+
+# Python environments and caches.
+.venv/
+.cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]

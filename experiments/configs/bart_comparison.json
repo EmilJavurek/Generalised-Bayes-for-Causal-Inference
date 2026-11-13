@@ -1,0 +1,20 @@
+{
+  "learner": "ridge",
+  "method": "aipw",
+  "clip_eps": 0.01,
+  "lam_prop": 1.0,
+  "lam_outcome": 1.0,
+  "prior_mean": 0.0,
+  "prior_sd": 100.0,
+  "dgps": [
+    1,
+    9
+  ],
+  "n": 500,
+  "replications": 50,
+  "seed": 20260725,
+  "folds": 5,
+  "trees": 50,
+  "draws": 300,
+  "tune": 200
+}

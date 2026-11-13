@@ -1,0 +1,36 @@
+{
+  "learner": "ridge",
+  "method": "aipw",
+  "clip_eps": 0.01,
+  "lam_prop": 1.0,
+  "lam_outcome": 1.0,
+  "prior_mean": 0.0,
+  "prior_sd": 100.0,
+  "dgps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sample_sizes": [
+    200,
+    1000
+  ],
+  "replications": 500,
+  "seed": 20260725,
+  "folds": 5,
+  "bootstrap_draws": 100,
+  "omega_scales": [
+    0.5,
+    0.75,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "refit_bootstrap": false
+}

@@ -1,0 +1,29 @@
+[project]
+name = "generalized-bayes-causal-inference"
+version = "0.1.0"
+description = "Research code for Generalized Bayes for Causal Inference"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "torch",
+]
+
+[project.optional-dependencies]
+bart = [
+    "pymc-bart==0.12.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

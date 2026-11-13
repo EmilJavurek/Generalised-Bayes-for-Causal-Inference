@@ -1,0 +1,39 @@
+{
+  "repetitions": 50,
+  "dgps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n": 1000,
+  "evaluation_n": 100,
+  "methods": [
+    "aipw",
+    "ipw",
+    "ra"
+  ],
+  "seed": 123,
+  "folds": 5,
+  "learner": "ridge",
+  "clip_eps": 0.01,
+  "lam_prop": 1.0,
+  "lam_outcome": 1.0,
+  "inducing_points": 20,
+  "kernel": "matern52",
+  "lengthscale": 2.0,
+  "variance": 2.0,
+  "jitter": 0.0001,
+  "epochs": 2000,
+  "learning_rate": 0.03,
+  "example_dgp": 4,
+  "example_points": 120,
+  "example_min": -3.0,
+  "example_max": 3.0,
+  "example_other_covariates": 1.0
+}
